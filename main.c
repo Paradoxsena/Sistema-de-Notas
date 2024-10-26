@@ -1,3 +1,4 @@
+/*Este codigo nÃ£o estÃ¡ 100%, mas funciona  as primeiras opÃ§Ãµes dele, dÃª um olhada e descubra*/
 #include <stdio.h>
 #include <locale.h>
 
@@ -25,22 +26,22 @@ int main()
 
     printf("\n ==========Bem vindo ao Sistema de Alunos!==========");
     printf("\n");
-    printf("\n Escolha uma das opções abaixo que você deseje explorar:");
+    printf("\n Escolha uma das opÃ§Ãµes abaixo que vocÃª deseje explorar:");
     printf("\n");
-    printf("\n 1 - Cálculo das Matérias Anuais(Português, Matemática e Educação Física) \n 2 - Cálculo do Semestre de Humanas(História, Sociologia, Filosofia, Geografia, e Inglês) \n 3 - Cálculo do Semestre de Exatas(Física, Biologia, Química, Espanhol e Artes)");
+    printf("\n 1 - CÃ¡lculo das MatÃ©rias Anuais(PortuguÃªs, MatemÃ¡tica e EducaÃ§Ã£o FÃ­sica) \n 2 - CÃ¡lculo do Semestre de Humanas(HistÃ³ria, Sociologia, Filosofia, Geografia, e InglÃªs) \n 3 - CÃ¡lculo do Semestre de Exatas(FÃ­sica, Biologia, QuÃ­mica, Espanhol e Artes)");
     printf("\n");
-    printf("\n Insira a opção: ");
+    printf("\n Insira a opÃ§Ã£o: ");
     scanf("%d", &choose);
     printf("\n============================================================");
     
     switch(choose){
     	case 1:
-    		printf("\n Bem vindo(a) a área das matérias anuais!");
-    		printf("\n Escolha uma das opções abaixo:");
+    		printf("\n Bem vindo(a) a Ã¡rea das matÃ©rias anuais!");
+    		printf("\n Escolha uma das opÃ§Ãµes abaixo:");
     		printf("\n");
-    		printf("\n 1 - Português \n 2 - Matemática \n 3 - Educação Física");
+    		printf("\n 1 - PortuguÃªs \n 2 - MatemÃ¡tica \n 3 - EducaÃ§Ã£o FÃ­sica");
     		printf("\n");
-    		printf("\n Insira a opção: ");
+    		printf("\n Insira a opÃ§Ã£o: ");
     		scanf("%d", &choose1);
     		printf("\n============================================================");
     		
@@ -56,18 +57,18 @@ int main()
     			float b4;
     			int media = 5;
     			case 1:
-    				printf("\n ----------Cálculo da nota de Português----------");
-    				printf("\n Escolha quais das opções abaixo você deseja calcular a nota de Português.");
+    				printf("\n ----------CÃ¡lculo da nota de PortuguÃªs----------");
+    				printf("\n Escolha quais das opÃ§Ãµes abaixo vocÃª deseja calcular a nota de PortuguÃªs.");
     				printf("\n");
-    				printf("\n 1 - 1º Bimestre \n 2 - 2º Bimestre \n 3 - 3º Bimestre \n 4 - 4º Bimestre \n 5 - Soma Geral dos Bimestres");
+    				printf("\n 1 - 1Âº Bimestre \n 2 - 2Âº Bimestre \n 3 - 3Âº Bimestre \n 4 - 4Âº Bimestre \n 5 - Soma Geral dos Bimestres");
     				printf("\n");
-    				printf("\n Insira a opção: ");
+    				printf("\n Insira a opÃ§Ã£o: ");
     				scanf("%d", &choose1_1);
     				printf("\n============================================================");
 					
 					switch(choose1_1){
 						case 1:
-							printf("\n ----------1º Bimestre----------");
+							printf("\n ----------1Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -84,11 +85,11 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 							
 						break;
 						case 2:
-							printf("\n ----------2º Bimestre----------");
+							printf("\n ----------2Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -105,10 +106,10 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 3:
-							printf("\n ----------3º Bimestre----------");
+							printf("\n ----------3Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -125,10 +126,10 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 4:
-							printf("\n ----------4º Bimestre----------");
+							printf("\n ----------4Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -145,40 +146,40 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 5:
 							printf("\n ----------Soma Geral dos Bimestres----------");
-							printf("\n Nota 1º Bimestre: ");
+							printf("\n Nota 1Âº Bimestre: ");
 							scanf("%f", &b1);
 							
-							printf("\n Nota 2º Bimestre: ");
+							printf("\n Nota 2Âº Bimestre: ");
 							scanf("%f", &b2);
 							
-							printf("\n Nota 3º Bimestre: ");
+							printf("\n Nota 3Âº Bimestre: ");
 							scanf("%f", &b3);
 			
-							printf("\n Nota 4º Bimestre: ");
+							printf("\n Nota 4Âº Bimestre: ");
 							scanf("%f", &b4);
 							
 							printf("\n Sua nota total do Ano foi: %.2f", b1 + b2 + b3 + b4);
-							printf("\nE sua média Anual foi: %.2f", (b1 + b2 + b3 + b4)/4);
+							printf("\nE sua mÃ©dia Anual foi: %.2f", (b1 + b2 + b3 + b4)/4);
 						break;
 					}	
     			break;
     			case 2:
-    				printf("\n ----------Cálculo da nota de Matématica----------");
-    				printf("\n Escolha quais das opções abaixo você deseja calcular a nota de Matemática.");
+    				printf("\n ----------CÃ¡lculo da nota de MatÃ©matica----------");
+    				printf("\n Escolha quais das opÃ§Ãµes abaixo vocÃª deseja calcular a nota de MatemÃ¡tica.");
     				printf("\n");
-    				printf("\n 1 - 1º Bimestre \n 2 - 2º Bimestre \n 3 - 3º Bimestre \n 4 - 4º Bimestre \n 5 - Soma Geral");
+    				printf("\n 1 - 1Âº Bimestre \n 2 - 2Âº Bimestre \n 3 - 3Âº Bimestre \n 4 - 4Âº Bimestre \n 5 - Soma Geral");
     				printf("\n");
-    				printf("\n Insira a opção: ");
+    				printf("\n Insira a opÃ§Ã£o: ");
     				scanf("%d", &choose1_2);
     				printf("\n============================================================");
     				
     				switch(choose1_2){
 						case 1:
-							printf("\n ----------1º Bimestre----------");
+							printf("\n ----------1Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -195,11 +196,11 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 							
 						break;
 						case 2:
-							printf("\n ----------2º Bimestre----------");
+							printf("\n ----------2Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -216,10 +217,10 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 3:
-							printf("\n ----------3º Bimestre----------");
+							printf("\n ----------3Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -236,10 +237,10 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 4:
-							printf("\n ----------4º Bimestre----------");
+							printf("\n ----------4Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -256,40 +257,40 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 5:
 							printf("\n ----------Soma Geral dos Bimestres----------");
-							printf("\n Nota 1º Bimestre: ");
+							printf("\n Nota 1Âº Bimestre: ");
 							scanf("%f", &b1);
 							
-							printf("\n Nota 2º Bimestre: ");
+							printf("\n Nota 2Âº Bimestre: ");
 							scanf("%f", &b2);
 							
-							printf("\n Nota 3º Bimestre: ");
+							printf("\n Nota 3Âº Bimestre: ");
 							scanf("%f", &b3);
 			
-							printf("\n Nota 4º Bimestre: ");
+							printf("\n Nota 4Âº Bimestre: ");
 							scanf("%f", &b4);
 							
 							printf("\n Sua nota total do Ano foi: %.2f", b1 + b2 + b3 + b4);
-							printf("\nE sua média Anual foi: %.2f", (b1 + b2 + b3 + b4)/4);
+							printf("\nE sua mÃ©dia Anual foi: %.2f", (b1 + b2 + b3 + b4)/4);
 						break;
 					}
     			break;
     			case 3:
-    				printf("\n ----------Cálculo da nota de Educação Física----------");
-    				printf("\n Escolha quais das opções abaixo você deseja calcular a nota de Educação Física.");
+    				printf("\n ----------CÃ¡lculo da nota de EducaÃ§Ã£o FÃ­sica----------");
+    				printf("\n Escolha quais das opÃ§Ãµes abaixo vocÃª deseja calcular a nota de EducaÃ§Ã£o FÃ­sica.");
     				printf("\n");
-    				printf("\n 1 - 1º Bimestre \n 2 - 2º Bimestre \n 3 - 3º Bimestre \n 4 - 4º Bimestre \n 5 - Soma Geral");
+    				printf("\n 1 - 1Âº Bimestre \n 2 - 2Âº Bimestre \n 3 - 3Âº Bimestre \n 4 - 4Âº Bimestre \n 5 - Soma Geral");
     				printf("\n");
-    				printf("\n Insira a opção: ");
+    				printf("\n Insira a opÃ§Ã£o: ");
     				scanf("%d", &choose1_3);
     				printf("\n============================================================");
     				
     				switch(choose1_3){
 						case 1:
-							printf("\n ----------1º Bimestre----------");
+							printf("\n ----------1Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -306,11 +307,11 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 							
 						break;
 						case 2:
-							printf("\n ----------2º Bimestre----------");
+							printf("\n ----------2Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -327,10 +328,10 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 3:
-							printf("\n ----------3º Bimestre----------");
+							printf("\n ----------3Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -347,10 +348,10 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 4:
-							printf("\n ----------4º Bimestre----------");
+							printf("\n ----------4Âº Bimestre----------");
 							printf("\n Nota das Trilhas: ");
 							scanf("%f", &t);
 							
@@ -367,50 +368,50 @@ int main()
 							scanf("%f", &tt1);
 							
 							printf("\n Sua nota total foi: %.2f", t + pb + c + tt + tt1);
-							printf("\n Sua média no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
+							printf("\n Sua mÃ©dia no Bimestre foi: %.2f", (t + pb + c + tt + tt1)/5);
 						break;
 						case 5:
 							printf("\n ----------Soma Geral dos Bimestres----------");
-							printf("\n Nota 1º Bimestre: ");
+							printf("\n Nota 1Âº Bimestre: ");
 							scanf("%f", &b1);
 							
-							printf("\n Nota 2º Bimestre: ");
+							printf("\n Nota 2Âº Bimestre: ");
 							scanf("%f", &b2);
 							
-							printf("\n Nota 3º Bimestre: ");
+							printf("\n Nota 3Âº Bimestre: ");
 							scanf("%f", &b3);
 			
-							printf("\n Nota 4º Bimestre: ");
+							printf("\n Nota 4Âº Bimestre: ");
 							scanf("%f", &b4);
 							
 							printf("\n Sua nota total do Ano foi: %.2f", b1 + b2 + b3 + b4);
-							printf("\nE sua média Anual foi: %.2f", (b1 + b2 + b3 + b4)/4);
+							printf("\nE sua mÃ©dia Anual foi: %.2f", (b1 + b2 + b3 + b4)/4);
 						break;
 					}
     			break;
     			default:
-    				printf("\n Opção selecionada Inexistente , por favor tente novamente :(");
+    				printf("\n OpÃ§Ã£o selecionada Inexistente , por favor tente novamente :(");
 			}
     	break;
     	case 2:
-    		printf("\n Bem vindo(a) a área do semestre de humanas!");
-    		printf("\n Escolha uma das opções abaixo:");
+    		printf("\n Bem vindo(a) a Ã¡rea do semestre de humanas!");
+    		printf("\n Escolha uma das opÃ§Ãµes abaixo:");
     		printf("\n");
-    		printf("\n 1 - História  \n 2 - Sociologia \n 3 - Filosofia \n 4 - Geografia 5 - Inglês ");
+    		printf("\n 1 - HistÃ³ria  \n 2 - Sociologia \n 3 - Filosofia \n 4 - Geografia 5 - InglÃªs ");
     		printf("\n");
-    		printf("\n Insira a opção: ");
+    		printf("\n Insira a opÃ§Ã£o: ");
     		scanf("%d", &choose2);
     		printf("\n============================================================");
     		
     		switch(choose2){
     			
     			case 1:
-    				printf("\n ----------Cálculo da nota de História----------");
-    				printf("\n Escolha quais das opções abaixo você deseja calcular a nota de História.");
+    				printf("\n ----------CÃ¡lculo da nota de HistÃ³ria----------");
+    				printf("\n Escolha quais das opÃ§Ãµes abaixo vocÃª deseja calcular a nota de HistÃ³ria.");
     				printf("\n");
-    				printf("\n 1 - 1º Bimestre \n 2 - 2º Bimestre \n  3 - Soma Geral dos Bimestres");
+    				printf("\n 1 - 1Âº Bimestre \n 2 - 2Âº Bimestre \n  3 - Soma Geral dos Bimestres");
     				printf("\n");
-    				printf("\n Insira a opção: ");
+    				printf("\n Insira a opÃ§Ã£o: ");
     				scanf("%d", &choose2_1);
     				printf("\n============================================================");
     				
@@ -419,7 +420,7 @@ int main()
 			}
     	break;
 		default:
-			printf("\n Opção selecionada Inexistente, por favor tente novamente :(");
+			printf("\n OpÃ§Ã£o selecionada Inexistente, por favor tente novamente :(");
 	}
 
     return 0;
